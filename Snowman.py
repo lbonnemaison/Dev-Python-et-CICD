@@ -1,11 +1,7 @@
 
-sentence = input("What the sentence ?")
-
 def snowman(a):
-    try:
-        if a == "What say two snowman when they meet ?":
-            print("It smells carrots !!")
-    except:
-        print("You'll know it later ;)")
+    if a == "What say two snowman when they meet ?":
+        print(sentence)
 
+sentence = input("What's the sentence ?")
 snowman(sentence)
